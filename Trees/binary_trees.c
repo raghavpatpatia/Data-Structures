@@ -1,3 +1,4 @@
+///I'm Raghav,Roll Number:199094 BCA 2nd Year(3rd sem)
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -22,7 +23,7 @@ void printPreorder(struct node* node)
      if (node == NULL)
           return;
 
-     printf("%d ", node->data);
+     printf("\n%d", node->data);
 
      printPreorder(node->left);
 
@@ -31,13 +32,15 @@ void printPreorder(struct node* node)
 
 int main()
 {
+     printf("I'm Raghav, Roll Number: 199094 BCA 2nd Year(3rd sem)\n");
      struct node *root  = newNode(1);
      root->left         = newNode(2);
      root->right        = newNode(3);
      root->left->left   = newNode(4);
      root->left->right  = newNode(5);
-
-     printf("Preorder traversal of binary tree: \n");
+     root->right->left  = newNode(6);
+     root->right->right = newNode(7);
+     printf("Preorder traversal of binary tree:");
      printPreorder(root);
 
      getchar();
