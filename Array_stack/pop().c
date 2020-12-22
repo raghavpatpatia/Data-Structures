@@ -35,6 +35,7 @@ void display(){
 }
 
 int main(){
+    printf("I'm Raghav B.C.A 2nd Year(3rd Sem) Roll Number: 199094\n");
     printf("Enter the number of elements in the stack:  ");
     scanf("%d",&n);
     i = 0;
