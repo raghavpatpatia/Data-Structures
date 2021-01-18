@@ -10,9 +10,9 @@ int queue[maxsize];
 void main ()
 {
     int choice;
+    printf("\nI'm Raghav, Roll Number: 199094 B.C.A 2nd Year(3rd Sem)\n");
     while(choice != 4)
     {
-        printf("\nI'm Raghav, Roll Number: 199094 B.C.A 2nd Year(3rd Sem)\n");
         printf("Select: \n");
         printf("1.insert an element\n2.Delete an element\n3.Display the queue\n4.Exit\n");
         printf("\nEnter your choice: ");
@@ -92,7 +92,7 @@ void display()
         printf("\nEmpty queue\n");
     }
     else
-    {   printf("\nprinting values .....\n");
+    {
         for(i=front;i<=rear;i++)
         {
             printf("\n%d\n",queue[i]);
